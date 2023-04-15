@@ -1,0 +1,23 @@
+
+h2 {
+    margin-left: 630px;
+    color: rgb(136, 35, 52);
+    font-weight: bold;
+}
+
+.line {
+    margin-bottom: 20px;
+    margin-left: 34%;
+    width:30%;
+    background-color: rgb(122, 122, 122);
+    height:0.5px;
+}
+   
+.city-list-container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-left: 7.45%;
+    margin-right: 7.35%;
+    background-color: rgb(197, 197, 197);
+  }

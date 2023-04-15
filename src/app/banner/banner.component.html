@@ -1,0 +1,14 @@
+<div class="banner-container" *ngIf="selectedCity">
+    <div class="image-container">
+        <img [src]="selectedCity.image" alt="Image">
+    </div>
+    <div class="sub-container">
+        <h2 class="subtitle">DISCOVER THE COLORFUL WORLD</h2>
+        <h1 class="title">{{selectedCity.name | uppercase}}</h1>
+        <div class="line"></div>
+        <h3 class="description">{{selectedCity.description }}</h3>
+        <button class="button-style"  (click)="discoverNow()">DISCOVER NOW</button>
+
+    </div>
+  </div>
+

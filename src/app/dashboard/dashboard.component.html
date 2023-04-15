@@ -1,0 +1,10 @@
+<div class="title-container">
+    <h2> MOST POPULAR </h2>
+    <div class="line"></div>
+</div>
+
+<div class="city-list-container">
+    <ng-container *ngFor="let thisCard of cards">
+        <app-city-card [city]="thisCard" (cityEmitter)="visitCity($event)"></app-city-card>
+    </ng-container>
+  </div>
